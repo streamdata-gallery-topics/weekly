@@ -1,12 +1,14 @@
+---
 swagger: "2.0"
 x-collection-name: Xignite
-x-complete: 1
+x-complete: 0
 info:
-  title: Xignite VWAP
-  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
+  title: Xignite Historical Get Historical Weekly Quotes Range
+  description: This operation returns end of week quotes for a US equity. This includes
+    split adjusted price.
   version: 1.0.0
 host: www.xignite.com
-basePath: xVWAP.json/XigniteVWAP
+basePath: xHistorical.json/XigniteHistorical
 schemes:
 - http
 produces:
@@ -121,40 +123,17 @@ paths:
       - Weekly
       - Quotes
       - Range
-  /GetHistoricalWeeklyRates:
-    get:
-      summary: Get Historical Weekly Rates
-      description: Returns a rate for a range of dates.
-      operationId: postGethistoricalweeklyrates
-      x-api-path-slug: gethistoricalweeklyrates-get
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Historical
-      - Weekly
-      - Rates
-  /GetHistoricalWeeklyVWAP:
-    get:
-      summary: Get Historical Weekly VWAP
-      description: Returns historical weekly VWAP information for a date range.
-      operationId: GetHistoricalWeeklyVWAP
-      x-api-path-slug: gethistoricalweeklyvwap-get
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Historical
-      - Weekly
-      - VWAP
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

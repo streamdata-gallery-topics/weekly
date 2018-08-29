@@ -7,11 +7,144 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Weekly
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Xignite Calendar - Get Events For Week
+  x-api-slug: geteventsforweek-get
+  description: Get all the events released during the week specified. Weeks are Monday
+    - Sunday.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/geteventsforweek-get-openapi.md
+- name: Xignite Calendar - Get Events For Week
+  x-api-slug: geteventsforweek-get
+  description: Get all the events released during the week specified. Weeks are Monday
+    - Sunday.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/geteventsforweek-get-openapi.md
+- name: Xignite Calendar - Get Events For Week
+  x-api-slug: geteventsforweek-get
+  description: Get all the events released during the week specified. Weeks are Monday
+    - Sunday.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCalendar.json/XigniteCalendar
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/geteventsforweek-get-openapi.md
+- name: Xignite Global Historical - Get Global Historical Weekly Quotes Range
+  x-api-slug: getglobalhistoricalweeklyquotesrange-get
+  description: Returns a range of weekly Global Historical quotes for a security.
+    For more information, go to http://www.xignite.com/
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/getglobalhistoricalweeklyquotesrange-get-openapi.md
+- name: Xignite Global Historical - Get Global Historical Weekly Quotes Range Extended
+  x-api-slug: getglobalhistoricalweeklyquotesrangeextended-get
+  description: Returns a range of weekly Global Historical quotes extended for a security.
+    For more information, go to http://www.xignite.com/
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/getglobalhistoricalweeklyquotesrangeextended-get-openapi.md
+- name: Xignite Historical - Get Historical Weekly Quotes Range Adjusted
+  x-api-slug: gethistoricalweeklyquotesrangeadjusted-get
+  description: This operation returns end of week quotes for a US equity. This includes
+    split and dividends adjusted price.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
+- name: Xignite Historical - Get Historical Weekly Quotes Range
+  x-api-slug: gethistoricalweeklyquotesrange-get
+  description: This operation returns end of week quotes for a US equity. This includes
+    split adjusted price.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/gethistoricalweeklyquotesrange-get-openapi.md
+- name: Xignite Rates - Get Historical Weekly Rates
+  x-api-slug: gethistoricalweeklyrates-get
+  description: Returns a rate for a range of dates.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/gethistoricalweeklyrates-get-openapi.md
+- name: Xignite VWAP - Get Historical Weekly VWAP
+  x-api-slug: gethistoricalweeklyvwap-get
+  description: Returns historical weekly VWAP information for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xVWAP.json/XigniteVWAP
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weekly/master/_listings/xignite/gethistoricalweeklyvwap-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
